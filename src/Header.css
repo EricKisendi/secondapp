@@ -1,0 +1,25 @@
+.List{
+    display: flex;
+    list-style: none;
+    align-items:flex-end;
+    justify-content: end;
+}
+.HEAd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.List > li {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    text-transform: capitalize;
+    font-family: "Rubik",serif;
+    border-top: 2px solid aquamarine;
+    margin: 2px;
+    width:50px;
+}
+.List > li:hover{
+    transition: .5s;
+    border-top:2px solid rgb(253, 121, 121);
+    cursor: pointer;
+}
