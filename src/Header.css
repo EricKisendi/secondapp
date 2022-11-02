@@ -1,25 +1,26 @@
-.List{
-    display: flex;
-    list-style: none;
-    align-items:flex-end;
-    justify-content: end;
+.Mheader > h3, h5{
+    text-align: center;
 }
-.HEAd{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.List > li {
+.ImgLogo{
+    height: 250px;
+    width: 350px;
+    margin-top: 1px;
     display: block;
-    padding: 5px 10px 5px 10px;
-    text-transform: capitalize;
-    font-family: "Rubik",serif;
-    border-top: 2px solid aquamarine;
-    margin: 2px;
-    width:50px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
 }
-.List > li:hover{
-    transition: .5s;
-    border-top:2px solid rgb(253, 121, 121);
-    cursor: pointer;
+.headerName{
+    font-family: Montserrat;
+    font-weight: 700;
+    word-spacing: 0.3em;
+}
+.headerDesc1{
+    font-family:Rajdhani;
+    color: #888888;
+    text-transform: capitalize;
+    word-spacing: -0.01em;
+    font-size: medium;
+}
+.headerDesc2{
+    font-family:Kalam;
 }

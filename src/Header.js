@@ -1,15 +1,13 @@
-import React from "react"
-import './Header.css'
+import React from "react";
+import "./Header.css";
 
 export default function Header(){
     return(
-        <div className="HEAd">
-        <img src="https://imgs.search.brave.com/TCkI3UN3M51NIbtXKLs-qX6ijax8O1RC43xgIkt83Ps/rs:fit:418:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5U/SXgzMVJqZ3A3ZTRH/X0h3U3hUeGtBQUFB/QSZwaWQ9QXBp" alt="logo" width="60px"></img>
-            <ul className="List">
-                <li>hello</li>
-                <li>Pricing</li>
-                <li>Market</li>
-            </ul>
-        </div>      
+        <div className="Mheader">
+            <img className="ImgLogo" src = "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="logo"></img>
+            <h3 className="headerName">ERIC KISENDI</h3>
+            <h5 className="headerDesc1">junior frontend developer</h5>
+            <h5 className="headerDesc2">erickisendi18@gmail.com</h5>
+        </div>
     )
-  }
+}

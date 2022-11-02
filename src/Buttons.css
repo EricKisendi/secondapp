@@ -1,0 +1,23 @@
+.Tbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.button1{
+    border: none;
+    padding: 6px 35px;
+    background-color: #fafcfb;
+    border-radius: 5px;
+    color:black;
+}
+.button2{
+    border: none;
+    padding: 6px 35px;
+    background-color: #56e4bc;
+    border-radius: 5px;
+    color: black;
+}
+.button2:hover{
+    background-color: rgb(226, 231, 235);
+    transition: .8s;
+}
